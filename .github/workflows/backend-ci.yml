@@ -26,3 +26,5 @@ jobs:
             - run: npm ci
 
             - run: node --check index.js
+
+            - run: npm run format:check
