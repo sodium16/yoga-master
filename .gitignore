@@ -1,0 +1,46 @@
+# ==========================================
+# Dependencies (Never commit node_modules)
+# ==========================================
+node_modules/
+**/node_modules/
+
+# ==========================================
+# Environment Variables & Secrets
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================================
+# Production Builds
+# ==========================================
+# React production build folder
+client/build/
+client/dist/
+
+# Backend production build folder (if using TypeScript)
+server/dist/
+server/build/
+
+# ==========================================
+# Logs and Debugging
+# ==========================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.eslintcache
+
+# ==========================================
+# IDE and System Files
+# ==========================================
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
